@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* style of header */
+.head {
+    background-color: #E9E7E8;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+/* single word color */
+.single-word{
+    color: orange;
+}
+
+.head-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.skills {
+    display: flex;
+    list-style: none; 
+    margin-right: 200px;
+    align-items: center;
+}
+.port{
+    margin-right: 10px;
+}
+.blog{
+    margin-right: 10px;
+}
+/* primary btn style */
+.primary-btn{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 100;
+}
+/* finish my head work */
+/* web banner style */
+.web-benner{
+    width: 100%;
+    height: 90vh;
+}
+/* banner pic size */
+.banner-pic{
+    width: 100%;
+    height: 90vh;
+}
+/* h1,p,btn style */
+.banner-ditails{
+    position: absolute;
+    left: 500px;
+    top: 260px;
+    width: 50%;
+    padding: 20px;
+    text-align: right;
+}
+/* h1 and p style */
+.banner-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.banner-description{
+    font-size: 10px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
