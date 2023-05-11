@@ -145,6 +145,12 @@
     font-weight: bolder;
     font-family: 'Work Sans';
 }
+.line{
+    width: 300px;
+    margin-left: 39%;
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
 
 .plan-names {
     display: flex;
@@ -191,7 +197,10 @@
 .plan {
     width: 100%;
     height: 60vh;
+    margin-bottom: 200px;
 }
+
+/* tip section style */
 
 .tips {
     position: relative;
@@ -212,9 +221,6 @@
 
 }
 
-.tip title {
-
-}
 
 .tip-btn {
     border: 0;
@@ -238,5 +244,82 @@
     padding: 10px;
     color: white;
 
+
+}
+/* style of footer */
+.foot{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.future{
+    padding: 100px;
+    margin-left: 50px;
+
+}
+.foot-title{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.foot-description{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 10px;
+
+}
+.email{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.phone{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.social-icons{
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+.fb-icon{
+    margin-right: 10px;
+
+}
+.tw-icon{
+    margin-right: 10px;
+}
+.subscribe{
+    padding: 100px;
+    margin: 50px;
+
+}
+.sub-title{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+.input{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 11px;
+
+}
+.sub-btn{
+    border: 0;
+    color: orange;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
 
 }
