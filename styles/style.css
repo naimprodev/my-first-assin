@@ -15,8 +15,9 @@
     align-items: center;
     padding: 10px;
 }
+
 /* single word color */
-.single-word{
+.single-word {
     color: orange;
 }
 
@@ -28,39 +29,45 @@
 
 .skills {
     display: flex;
-    list-style: none; 
+    list-style: none;
     margin-right: 200px;
     align-items: center;
 }
-.port{
-    margin-right: 10px;
+
+.port {
+    margin-right: 20px;
 }
-.blog{
-    margin-right: 10px;
+
+.blog {
+    margin-right: 20px;
 }
+
 /* primary btn style */
-.primary-btn{
+.primary-btn {
     color: white;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.699);
     padding: 10px;
     border: 0;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 100;
 }
+
 /* finish my head work */
 /* web banner style */
-.web-benner{
+.web-benner {
     width: 100%;
     height: 90vh;
 }
+
 /* banner pic size */
-.banner-pic{
+.banner-pic {
     width: 100%;
     height: 90vh;
 }
+
 /* h1,p,btn style */
-.banner-ditails{
+.banner-ditails {
     position: absolute;
     left: 500px;
     top: 260px;
@@ -68,15 +75,168 @@
     padding: 20px;
     text-align: right;
 }
+
 /* h1 and p style */
-.banner-title{
+.banner-title {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
 
 }
-.banner-description{
+
+.banner-description {
     font-size: 10px;
     font-weight: 100;
     margin-bottom: 15px;
+}
+
+/* image and time waste list style */
+.time-wast-list {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: 120px;
+}
+
+.my-image {
+    width: 500px;
+    height: 650px;
+    margin-left: 150px;
+    margin-right: 87px;
+}
+
+.time-wast-description {
+    margin-top: 100px;
+    margin-right: 150px;
+}
+
+.waste-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.waste-description {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: gray;
+
+}
+
+.waste-list {
+    font-size: 12px;
+    list-style: none;
+    color: gray;
+}
+
+.waste-list li::before {
+    content: '✓ ';
+}
+
+/* my plan style */
+.plan-title {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Work Sans';
+}
+
+.plan-names {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 15px;
+    font-weight: 100;
+    color: gray;
+}
+
+.development-plan {
+    text-align: center;
+}
+
+.javascript-plan {
+    margin-left: 130px;
+    text-align: center;
+}
+
+.smoke-plan {
+    margin-left: 130px;
+    text-align: center;
+}
+
+.ecomarce-plan {
+    margin-left: 130px;
+    text-align: center;
+}
+
+.plan {
+    width: 100%;
+    height: 60vh;
+}
+
+.tips {
+    position: relative;
+    margin-top: 80px;
+}
+
+.tip-img {
+    width: 1050px;
+    height: 200px;
+
+}
+
+.tip-img2 {
+    background-image: url(../images/watch.png);
+    background-size: 1000px 200px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+
+}
+
+.tip title {
+
+}
+
+.tip-btn {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: red;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+
+.tip-description {
+    position: absolute;
+    top: 5%;
+    left: 200px;
+    width: 100%;
+    text-align: left;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+
+
 }
